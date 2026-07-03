@@ -1,0 +1,41 @@
+/* Existing styles for header, nav, footer, etc. (already included before) */
+
+.menu-section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu-section h2 {
+    text-align: center;
+    color: #4e342e;
+    margin-bottom: 30px;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.menu-item h3 {
+    color: #6d4c41;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    margin: 5px 0;
+}
+
+.price {
+    color: #388e3c;
+    font-weight: bold;
+}

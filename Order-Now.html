@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Now - Cozy Coffee</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+
+<header>
+    <h1>Cozy Coffee</h1>
+    <p>Order Your Favorite Coffee Online</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="order.html">Order Now</a>
+</nav>
+
+<section class="order-section">
+    <h2>Order Now</h2>
+    <form class="order-form">
+        <label for="customerName">Full Name</label>
+        <input type="text" id="customerName" placeholder="Your full name" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="03XXXXXXXXX" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="yourname@email.com" required>
+
+        <label for="item">Select Item</label>
+        <select id="item" required>
+            <option value="">--Choose your item--</option>
+            <option value="espresso">Espresso</option>
+            <option value="latte">Latte</option>
+            <option value="mocha">Mocha</option>
+            <option value="coldcoffee">Cold Coffee</option>
+            <option value="brownie">Brownie</option>
+        </select>
+
+        <label for="qty">Quantity</label>
+        <input type="number" id="qty" min="1" value="1" required>
+
+        <label for="address">Delivery Address</label>
+        <textarea id="address" placeholder="Enter your delivery address" rows="4" required></textarea>
+
+        <button type="submit">Place Order</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Cozy Coffee. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+.feedback-section {
+    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.feedback-section h2 {
+    text-align: center;
+    color: #4e342e;
+    margin-bottom: 30px;
+}
+
+.feedback-form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+.feedback-form button {
+    margin-top: 20px;
+    background-color: #4e342e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.feedback-form button:hover {
+    background-color: #6d4c41;
+}

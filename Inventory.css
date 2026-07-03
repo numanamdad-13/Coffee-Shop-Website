@@ -1,0 +1,46 @@
+body{
+    font-family: 'Segeo UI',sans-serif;
+    margin: 50;
+    padding: 50;
+    background: color #bd9170;
+    text-align: center;
+    color: #333;
+    height: max-content;
+}
+header{
+background-color: #6f4e37;
+color: white;
+padding: 0;
+text-align: center;
+}
+.Inventory{
+    margin: 30px auto;
+    width: 90%;
+    max-width: 900px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow:  0 4px 8px rgba(0,0,0,0,1);
+}
+table {
+    width: 100%;
+border-collapse:collapse ;
+    font-size: 16px;
+}
+th,td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: #d3b89b;
+    color: #333;
+}
+footer{
+    background-color: #6f4e37;
+    color:white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+

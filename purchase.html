@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Purchase - Cozy Coffee</title>
+    <link rel="stylesheet" href="purchase.css">
+</head>
+<body>
+
+<header>
+    <h1>Cozy Coffee</h1>
+    <p>Place Your Order</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="Menu.html">Menu</a>
+    <a href="AboutUs.html">About Us</a>
+    <a href="ContactUs.html">Contact Us</a>
+    <a href="purchase.html">Purchase</a>
+</nav>
+
+<section class="purchase-section">
+    <h2>Make a Purchase</h2>
+
+    <form class="purchase-form">
+        <label for="name">Customer Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="03XXXXXXXXX" required>
+
+        <label for="product">Select Product</label>
+        <select id="product" required>
+            <option value="">--Choose an item--</option>
+            <option value="espresso">Espresso - Rs. 250</option>
+            <option value="latte">Latte - Rs. 370</option>
+            <option value="mocha">Mocha - Rs. 400</option>
+            <option value="cold-coffee">Cold Coffee - Rs. 420</option>
+            <option value="brownie">Brownie - Rs. 300</option>
+        </select>
+
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" min="1" value="1" required>
+
+        <label for="address">Delivery Address</label>
+        <textarea id="address" rows="4" placeholder="Enter your delivery address" required></textarea>
+
+        <button type="submit">Place Order</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Cozy Coffee. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
